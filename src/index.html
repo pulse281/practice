@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <h1>hello world</h1>
+
+    <button class="open-modal-btn">open modal</button>
+
+    <div class="modal-wrapper hide">
+        <div class="modal">
+            <span class="modal__close">x</span>
+            <div class="modal__header">Введите данные и нажмите отправить</div>
+            <form class="modal__form">
+                <input class="modal__inp" name="name" type="text" placeholder="Write your name" required>
+                <input class="modal__inp name="phone" type="number" placeholder="Write your phone">
+                <input class="modal__inp name="e-mail" type="email" placeholder="Write your mail">
+                <button class="modal__btn" type="submit">Отправить</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="js/bundle.js"></script>
+    
+</body>
+</html>
